@@ -377,3 +377,42 @@ textarea#text {
     width: 220px;
     box-shadow: none;
 }
+
+
+/*footer*/
+
+footer.footer {
+    margin-top: 34px;
+    background-color: #d1c5b8;
+}
+
+.footer-description {
+    display: flex;
+    align-items: center;
+}
+
+.footer-description img {
+    padding: 8px;
+    height: 22px;
+    margin-bottom: 8px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.autor {
+    font-family: 'Yellowtail', cursive;
+    font-size: 26px;
+}
+
+.footer-description span {
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;    
+}
+
+.autor a {
+    color: darkred;
+}
