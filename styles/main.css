@@ -100,10 +100,11 @@ article.hero-article {
     margin: 20px 0;
     padding: 20px;
     border-radius: 30px 10px;
+    box-shadow: 12px 12px 5px grey;
 }
 
 article.hero-article-negative {
-	margin-bottom: -65px
+	margin-bottom: -53px
 }
 
 .hero-img {
@@ -187,6 +188,7 @@ section.productos {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    margin-bottom: -55px;
 }
 
 a {
@@ -307,4 +309,71 @@ a {
     border-radius: 30px 10px;
     align-items: center;
     box-shadow: 12px 12px 5px grey;
+}
+
+/*Contacto Form*/
+
+form.contacto-form { 
+    background-color: #bda68f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
+    align-items: center;
+    height: 260px;
+    border-radius: 30px 10px;
+    box-shadow: 12px 12px 5px grey;
+}
+
+.contacto-form label {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+}
+
+form.contacto-form div {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%
+}
+
+form.contacto-form input {
+    box-sizing: border-box;
+    width: 222px;
+    height: 49px;
+    padding: 10px;
+    border-radius: 30px 10px;
+    border: none;
+    box-shadow: 12px 12px 5px grey;
+    font-family: 'Mitr', sans-serif;
+}
+
+textarea#text {
+    box-sizing: border-box;
+    width: 222px;
+    height: 49px;
+    padding: 10px;
+    resize: none;
+    border-radius: 30px 10px;
+    border: none;
+    box-shadow: 12px 12px 5px grey;
+    font-family: 'Mitr', sans-serif;    
+}
+
+.input {
+    background-color: #3b250c;
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20ppx;
+}
+.input:hover {
+    cursor: pointer;
+}
+
+.input:active {
+    width: 220px;
+    box-shadow: none;
 }
