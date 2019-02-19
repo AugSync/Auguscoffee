@@ -4,3 +4,307 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+/*Header*/
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+    flex-wrap: inherit;
+    justify-content: inherit;
+}
+
+.header-image {     
+
+	/* imagen de fondo */
+    background-image: url(https://images.unsplash.com/photo-1422207134147-65fb81f59e38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1558&q=80);
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+
+    /* Alinear el texto justo al medio */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.header-title {
+    font-size: 90px;
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    text-shadow: 2px 2px 5px rgba(204, 142, 53,0.8);
+}
+
+/*navbar*/
+
+.navbar {
+    background: #D1C5B8;
+    position: sticky;
+    top: 0;
+}
+
+h2.navbar-title {
+    font-size: 30px;
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    margin: 22px 0;
+}
+
+.navbar-a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-a ul {
+    display: flex;
+}
+
+.navbar-a a {
+	display: block;
+	text-decoration: none;
+	font-family: 'Mitr', sans-serif;
+    background: #9E724E;
+ 	color: white;
+    font-weight: 700;
+    font-size: 15px;
+    width: 110px;
+    text-align: center;
+    padding: 7px 0;
+    margin: 0 20px;
+    border-radius: 30px 10px;
+    box-shadow: 4px 2px 5px grey;
+}
+
+.navbar-a li {
+    list-style-type: none;
+}
+
+.navbar-a a:active {
+    background: #774E33;
+    box-shadow: none;
+}
+
+.navbar-a a:hover {
+    cursor: pointer;
+}
+
+/*Articles*/
+
+article.hero-article {
+    display: flex;
+    box-sizing: border-box;
+    background: #BDA68F;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 30px 10px;
+}
+
+article.hero-article-negative {
+	margin-bottom: -65px
+}
+
+.hero-img {
+    width: 50%;
+    background: red;
+}
+
+.hero-article div {
+	box-sizing: border-box;
+    width: 50%;
+}
+
+.hero-img-a {     
+	background-image: url(https://cdn.bioguia.com/embed/67093e98aa50408cdbc29b76381534167893/encuentra_hombre_granos_de_caf%C3%A9.jpg);   
+	background-size: 537px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    object-fit: cover;  
+	box-sizing: border-box;     
+	border-radius: 30px 10px; 
+}
+
+.hero-img-b {     
+	background-image: url(https://dosg.net/wp-content/uploads/2018/03/cafeteria.jpg);   
+	background-size: 486px;
+    background-position-x: center;;
+	background-repeat: no-repeat;
+    object-fit: cover;  
+	box-sizing: border-box;     
+	border-radius: 30px 10px; 
+}
+
+.hero-article-a {     
+	padding: 0px 45px;
+}
+
+.hero-article-a h2 {
+	margin: 0;
+	font-family: 'Yellowtail', cursive;
+	font-size: 35px;
+	text-align: center;
+}
+
+.hero-article-a p {
+	text-align: justify;
+	line-height: 20px;
+    font-family: 'Mitr', sans-serif;
+    margin: 15px 0;
+    text-indent: 40px;
+}
+
+.hero-article-a cite {
+    font-family: 'Yellowtail', cursive;
+}
+
+/*Productos*/
+
+section.productos-title {
+    padding-top: 85px;
+
+}
+
+.productos-title h1 {
+	margin: 0;
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #bda68f;
+}
+
+.productos-a {
+    width: 48%;
+    margin-top: 20px;
+}
+
+section.productos {
+	flex-wrap: wrap;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.productos-article {
+	background-color: #3b250c;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 101px;
+    width: 70%;
+    margin-bottom: 33px;
+    border-radius: 30px 10px;
+}
+
+.productos-article h3 {
+	font-size: 51px;
+    font-family: 'Yellowtail', cursive;
+    color: white;
+}
+
+
+.productos-img-a {
+    background-image: url(http://www.cooprodom.com/wp-content/uploads/2017/07/granos-de-cafe-925x500.png);
+    background-repeat: no-repeat;
+    background-size: 479px;
+    background-position-y: -82px;
+    background-position-x: center;
+	width: 100%;
+	background-color: #bda68f;
+    box-sizing: border-box;
+    height: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 30px 10px;
+    align-items: center;
+    box-shadow: 12px 12px 5px grey;
+}
+
+.productos-img-b {
+    background-image: url(https://clubsusazon.com/wp-content/uploads/sites/2/2017/10/shutterstock_112058765.jpg);
+    background-repeat: no-repeat;
+    background-size: 575px;
+    background-position-y: -82px;
+    background-position-x: center;
+	width: 100%;
+	background-color: #bda68f;
+    box-sizing: border-box;
+    height: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 30px 10px;
+    align-items: center;
+    box-shadow: 12px 12px 5px grey;
+
+}
+.productos-img-c {
+    background-image: url(https://ep01.epimg.net/elpais/imagenes/2018/02/16/escaparate/1518771727_150557_1518774829_noticia_normal.jpg);
+    background-repeat: no-repeat;
+    background-size: 479px;
+    background-position-y: -90px;
+    background-position-x: center;
+	width: 100%;
+	background-color: #bda68f;
+    box-sizing: border-box;
+    height: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 30px 10px;
+    align-items: center;
+    box-shadow: 12px 12px 5px grey;
+
+}
+.productos-img-d {
+    background-image: url(https://www.porcelanosa.com/trendbook/app/uploads/2018/10/EuroCucina-2018-cocina-Gamadecor-Salone-Mobile-Milan-5-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 481px;
+    background-position-y: -92px;
+	width: 100%;
+	background-color: #bda68f;
+    box-sizing: border-box;
+    height: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 30px 10px;
+    align-items: center;
+    box-shadow: 12px 12px 5px grey;
+}
+.productos-img-e {
+    background-image: url(http://www.cursosbaristacafe.com.mx/2017/wp-content/uploads/2013/07/cual-es-el-tama%C3%B1o-adecuado-de-taza.jpg?165c2d&165c2d);
+    background-repeat: no-repeat;
+    background-size: 482px;
+    background-position-y: -124px;
+	width: 100%;
+	background-color: #bda68f;
+    box-sizing: border-box;
+    height: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 30px 10px;
+    align-items: center;
+    box-shadow: 12px 12px 5px grey;
+}
+.productos-img-f {
+    background-image: url(http://www.iniciarunacafeteria.com/wp-content/uploads/2018/01/ideas-para-decorar-una-cafeteria.jpg?05d115&05d115);
+    background-repeat: no-repeat;
+	background-size: 485px;
+    background-position-y: -37px;
+	width: 100%;
+	background-color: #bda68f;
+    box-sizing: border-box;
+    height: 260px;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 30px 10px;
+    align-items: center;
+    box-shadow: 12px 12px 5px grey;
+}
