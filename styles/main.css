@@ -416,3 +416,7 @@ p.autor {
 .autor a {
     color: darkred;
 }
+
+.redes a {
+    padding: 5px
+}
