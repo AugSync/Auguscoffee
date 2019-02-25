@@ -221,16 +221,6 @@ a {
     background-repeat: no-repeat;
     background-size: 479px;
     background-position-y: -82px;
-    background-position-x: center;
-	width: 100%;
-	background-color: #bda68f;
-    box-sizing: border-box;
-    height: 260px;
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 30px 10px;
-    align-items: center;
-    box-shadow: 12px 12px 5px grey;
 }
 
 .productos-img-b {
@@ -238,75 +228,36 @@ a {
     background-repeat: no-repeat;
     background-size: 575px;
     background-position-y: -82px;
-    background-position-x: center;
-	width: 100%;
-	background-color: #bda68f;
-    box-sizing: border-box;
-    height: 260px;
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 30px 10px;
-    align-items: center;
-    box-shadow: 12px 12px 5px grey;
-
 }
 .productos-img-c {
     background-image: url(https://ep01.epimg.net/elpais/imagenes/2018/02/16/escaparate/1518771727_150557_1518774829_noticia_normal.jpg);
     background-repeat: no-repeat;
     background-size: 479px;
     background-position-y: -90px;
-    background-position-x: center;
-	width: 100%;
-	background-color: #bda68f;
-    box-sizing: border-box;
-    height: 260px;
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 30px 10px;
-    align-items: center;
-    box-shadow: 12px 12px 5px grey;
-
 }
 .productos-img-d {
     background-image: url(https://www.porcelanosa.com/trendbook/app/uploads/2018/10/EuroCucina-2018-cocina-Gamadecor-Salone-Mobile-Milan-5-1.jpg);
     background-repeat: no-repeat;
     background-size: 481px;
     background-position-y: -92px;
-    background-position-x: center;
-	width: 100%;
-	background-color: #bda68f;
-    box-sizing: border-box;
-    height: 260px;
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 30px 10px;
-    align-items: center;
-    box-shadow: 12px 12px 5px grey;
 }
 .productos-img-e {
     background-image: url(http://www.cursosbaristacafe.com.mx/2017/wp-content/uploads/2013/07/cual-es-el-tama%C3%B1o-adecuado-de-taza.jpg?165c2d&165c2d);
     background-repeat: no-repeat;
     background-size: 482px;
     background-position-y: -124px;
-    background-position-x: center;
-	width: 100%;
-	background-color: #bda68f;
-    box-sizing: border-box;
-    height: 260px;
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 30px 10px;
-    align-items: center;
-    box-shadow: 12px 12px 5px grey;
 }
 .productos-img-f {
     background-image: url(http://www.iniciarunacafeteria.com/wp-content/uploads/2018/01/ideas-para-decorar-una-cafeteria.jpg?05d115&05d115);
     background-repeat: no-repeat;
 	background-size: 485px;
     background-position-y: -37px;
+}
+
+[class^="productos-img-"] {
     background-position-x: center;
-	width: 100%;
-	background-color: #bda68f;
+    width: 100%;
+    background-color: #bda68f;
     box-sizing: border-box;
     height: 260px;
     display: flex;
@@ -584,7 +535,7 @@ p.autor {
     form.contacto-form div {
             width: 100%;
     }
-    .productos-img-a,.productos-img-b,.productos-img-c,.productos-img-d,.productos-img-e,.productos-img-f {
+    [class^="productos-img-"] {
         height: 151px;
     }
 }
