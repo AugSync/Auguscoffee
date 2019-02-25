@@ -3,16 +3,19 @@
 body {
 	margin: 0;
 	padding: 0;
+    min-width: 320px;
 }
 
 /*Header*/
 
 .container {
-	width: 1000px;
+	max-width: 1000px;
+    min-width: 320px;
 	margin: 0 auto;
 	display: inherit;
     flex-wrap: inherit;
     justify-content: inherit;
+    padding: 0 20px;
 }
 
 .header-image {     
@@ -31,7 +34,7 @@ body {
 }
 
 h1.header-title {
-    font-size: 90px;
+    font-size: 12vw;
     color: white;
     font-family: 'Yellowtail', cursive;
     text-shadow: 2px 2px 5px rgba(204, 142, 53,0.8);
@@ -185,7 +188,6 @@ section.productos-title {
 section.productos {
 	flex-wrap: wrap;
     display: flex;
-    display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
     margin-bottom: -55px;
@@ -270,6 +272,7 @@ a {
     background-repeat: no-repeat;
     background-size: 481px;
     background-position-y: -92px;
+    background-position-x: center;
 	width: 100%;
 	background-color: #bda68f;
     box-sizing: border-box;
@@ -285,6 +288,7 @@ a {
     background-repeat: no-repeat;
     background-size: 482px;
     background-position-y: -124px;
+    background-position-x: center;
 	width: 100%;
 	background-color: #bda68f;
     box-sizing: border-box;
@@ -300,6 +304,7 @@ a {
     background-repeat: no-repeat;
 	background-size: 485px;
     background-position-y: -37px;
+    background-position-x: center;
 	width: 100%;
 	background-color: #bda68f;
     box-sizing: border-box;
@@ -419,4 +424,164 @@ p.autor {
 
 .redes a {
     padding: 5px
+}
+
+@media screen and (max-width: 1024px) {
+     .footer-flex {
+        flex-direction: column;
+    }   
+    .hero-img-a {
+        background-size: 696px;
+    }
+    .hero-img-b {
+        background-size: 599px;
+    }
+    .footer-flex {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-a {
+        flex-direction: column;
+        height: 85px;
+    }
+    form.contacto-form {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    form.contacto-form div {
+            width: 80%;
+    }
+    article.hero-article {
+        display: inline-block;
+    }
+    .hero-article div {
+        width: 100%;
+        padding: 0;
+    }
+    .hero-img-a {
+        height: 200px;
+        background-position-y: -129px;
+        margin-bottom: 20px;
+    }
+    .hero-img-b {
+        height: 200px;
+        background-position-y: -209px;
+        background-size: 675px;
+        margin-top: 20px;
+    }
+    .navbar-a ul {
+        margin: 10px 0;
+        padding: 0
+    }
+    .navbar-a a {
+        margin: 0 4px;
+    }
+    h2.navbar-title {
+        margin: 0px 0 -5px;
+        font-size: 24px;
+    }
+    .header-image {
+        background-size: 784px;
+        height: 244px;
+    }
+}
+@media screen and (max-width: 630px)  {
+    section.productos {
+        display: block;
+    }
+    .container {
+        flex-direction: inherit;
+    }
+    .productos-a {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .header-image {
+        background-size: 642px;
+        height: 201px;
+    }
+}
+@media screen and (max-width: 480px)  {
+    .navbar-a a{
+        font-size: 12px;
+        width: 84px;
+    }
+    .hero-article-a p {
+        font-size: 12px;
+    }
+    .productos-article h3 {
+        margin: -13px 0 0;
+    }
+    .productos-article {
+        height: 76px;
+    }
+    .header-image {
+        background-size: 485px;
+        height: 135px;
+    }
+    form.contacto-form input {
+        width: 136px;
+        height: 31px;
+    }
+    textarea#text {
+        width: 136px;
+        min-width: 136px;
+        height: 31px;
+        padding: 6px;
+        overflow: hidden;
+    }
+    .contacto-form label {
+        font-size: 20px;
+    }
+    .footer-description span {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 9px;
+    }
+    p.autor {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px)  { 
+    .navbar-a a {
+        width: 57px;
+        font-size: 9px;
+    }
+    .navbar-a {
+        height: 70px;
+    }
+    .productos-title h1 {
+        padding: 0;
+        font-size: 25px;
+    }
+    section.productos-title{
+        padding-top: 70px;
+    }
+    .hero-article-a h2 {
+        font-size: 25px;
+    }
+    .hero-img-a {
+        background-size: 376px;
+        background-position-y: -105px;
+        height: 85px;
+    }    
+    .hero-img-b {
+        background-size: 376px;
+        background-position-y: -147px;        
+        height: 85px;
+    }
+    div.container {
+        padding: 0;
+    }
+    form.contacto-form div {
+            width: 100%;
+    }
+    .productos-img-a,.productos-img-b,.productos-img-c,.productos-img-d,.productos-img-e,.productos-img-f {
+        height: 151px;
+    }
 }
