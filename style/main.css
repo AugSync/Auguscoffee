@@ -505,6 +505,9 @@ p.autor {
     }
 }
 @media screen and (max-width: 480px)  {
+    .input:active {
+        width: 135px;
+    }
     .navbar-a a{
         font-size: 12px;
         width: 84px;
