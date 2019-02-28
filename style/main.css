@@ -297,6 +297,7 @@ form.contacto-form div {
 }
 
 form.contacto-form input {
+    outline: none;
     box-sizing: border-box;
     width: 222px;
     height: 49px;
@@ -308,6 +309,7 @@ form.contacto-form input {
 }
 
 textarea#text {
+    outline: none;
     box-sizing: border-box;
     width: 222px;
     height: 49px;
